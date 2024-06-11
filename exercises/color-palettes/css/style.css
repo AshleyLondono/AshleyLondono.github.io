@@ -1,13 +1,14 @@
+#body-id {
+    text-align: center;
+}
 #palette-1-heading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
 }
 
 #palette-1-color-1 {
     background-color:#EFA58A;
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     padding: 24px;
 }
 
@@ -15,7 +16,6 @@
     background-color:#B0BFE8;
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     padding: 24px;
 }
 
@@ -23,6 +23,97 @@
     background-color:#9EA3D0;
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    padding: 24px;
+}
+
+#palette-1-color-4 {
+    background-color: #565843;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-1-color-5 {
+    background-color: #211D11;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-2-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#palette-2-color-1 {
+    background-color:#A7DFFA;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-2-color-2 {
+    background-color:#F6D9Ad;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-2-color-3 {
+    background-color:#F0AACC;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-2-color-4 {
+    background-color:#CF2860;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-2-color-5 {
+    background-color:#E91F77;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-3-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#palette-3-color-1 {
+    background-color:#45C5D9;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-3-color-2 {
+    background-color:#5D6465;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-3-color-3 {
+    background-color:#6E4949;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-3-color-4 {
+    background-color:#E06900;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+}
+
+#palette-3-color-5 {
+    background-color:#612D17;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 24px;
 }
