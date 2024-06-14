@@ -43,10 +43,11 @@
 }
 
 /* Drill 7 - Write your code solution below */
+#d7-container {
+    text-align: center;
+}
+
 .d7-div{
     margin: 10px 25px;
 }
  
-#d7-container {
-    text-align: center;
-}
