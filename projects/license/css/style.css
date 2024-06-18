@@ -81,4 +81,5 @@ div#address {
 #donor,
 #real-id {
     display: inline-block;
+    text-align: right
 }
