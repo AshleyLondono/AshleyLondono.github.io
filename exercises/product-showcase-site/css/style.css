@@ -35,6 +35,7 @@ body {
 .single-column img{
     width: 500px;
     border-radius: 10%;
+    margin: auto;
 }
 
 #box-2 li {
