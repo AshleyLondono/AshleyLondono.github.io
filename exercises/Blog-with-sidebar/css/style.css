@@ -5,6 +5,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/tree-leaves.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #grid-layout {
@@ -29,7 +32,7 @@ body {
 }
 
 #sidebar-content ul {
-    background-color:#EFEFEF;
+    background-color:whitesmoke;
     border: 1px solid darkslategray;
     margin: 0px 0px 36px;
     padding: 0px 12px;
@@ -37,12 +40,12 @@ body {
 }
 
 #sidebar-content a {
-    color:darkslategrey;
+    color:darkgreen;
     text-decoration: none;
 }
 
 #sidebar-content li {
-    border-bottom: 1px solid darkslategrey;
+    border-bottom: 1px solid darkgreen;
     padding: 8px 0px;
 }
 
@@ -54,5 +57,10 @@ body {
     grid-area: content;
     border: 2px solid black;
     padding: 0px 36px;
+    background-color:whitesmoke
 
+}
+
+img {
+    width: 350px;
 }
