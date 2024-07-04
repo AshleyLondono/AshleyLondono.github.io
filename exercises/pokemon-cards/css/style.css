@@ -7,15 +7,26 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
 * {
     box-sizing: border-box;
+}
+
+.card-style-3 {
+    display: flex;
+    border-radius: 30px;
+    border-width: 20px;
+    border-style: solid;
+    border-image: linear-gradient(to right, gold, yellow) 1;
+    margin: auto;
+    padding: 5px
 }
 
 #pokemon-card-1,
 #pokemon-card-2 {
     width: 350px;
-    background-color: green; 
-    display: flex;
+    background: 
+        linear-gradient(to bottom right, lightgreen, green, lightgreen);
     margin: 20px;
     flex-direction: column;
     border-radius: 20px;
@@ -23,8 +34,8 @@
 
 #pokemon-card-3 {
     width: 350px;
-    background-color: orange; 
-    display: flex;
+    background: 
+        linear-gradient(to bottom right, orange, orangered, orange);
     margin: 20px;
     flex-direction: column;
     border-radius: 20px;
@@ -32,34 +43,77 @@
 
 #pokemon-card-4 {
     width: 350px;
-    background-color: lightskyblue; 
-    display: flex;
+    background: 
+        linear-gradient(to bottom left, lightskyblue, lightgreen);
     margin: 20px;
     flex-direction: column;
     border-radius: 20px;
 }
 
+.pokemon-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.health {
+    font-size: large;
+}
+
 .card-style-3 img {
-    border: 2px solid white;
-    width: 80%;
+    display: block;
+    border: 5px solid gold;
+    align-items: center; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .details {
-    display: flex;
-    font-weight: bold; 
-    font-size: 13px;
-    font-style: italic;
+    font-size: 11px;
     padding: 5px;
+    background-color: gold;
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    align-items: center;
 }
 
 .attack .energy {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.power {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .attack {
     display: flex;
-    margin: 20px;
+    margin: 5px;
     padding: 5px;
-    border-bottom-color: 5px blue 
+    justify-content: center;
+    border-bottom: 3px solid black;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.data {
+    display: block;
+    border: 2px solid gold;
+    align-items: center; 
+    width: 90%;
+    font-size: 12px;
+    margin: auto;
 }
