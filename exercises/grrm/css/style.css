@@ -464,7 +464,7 @@ body {
 
     #nav a {
         flex: 200px;
-        border-bottom: 2px solid gray
+        border-bottom: 2px solid gray;
     }
 }
 /*Mobile Breakpoint screen*/
@@ -508,7 +508,7 @@ body {
 
     #nav a {
         flex: 150px;
-        border-bottom: 2px solid gray
+        border-bottom: 2px solid gray;
     }
 
     #banner-container,
@@ -519,6 +519,6 @@ body {
     #main {
         background-color: transparent;                                                              
         margin: 0px;
-        padding: 0px
+        padding: 0px;
     }
 }
