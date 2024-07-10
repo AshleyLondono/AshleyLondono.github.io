@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*first container*/
+
+#first-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cardpart1 {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cardpart1 a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+/*first container effects*/
+
+.cardpart1:hover {
+    background-color: lightgreen;
+    box-shadow: 5px 5px 5px darkgreen;
+    transform: translateY(-5px)
+    rotate(360deg);
+}
+
+.cardpart1 {
+    transition: 
+        background-coor 0.5s,
+        box-shadow 0.5,
+        transform 0.5s;
+}
+
+/*second container*/
+
+#second-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cardpart2 {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cardpart2 a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+/*second container effects*/
+
+
+
+
+/*third container*/
+
+#third-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cardpart3 {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cardpart3 a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+/*third container effects*/
