@@ -2,9 +2,16 @@
     box-sizing: border-box;
 }
 
+/*Sculptor's Haven*/
+
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#sculpt-header {
+    position: sticky;
+    top: 0px;
 }
 
 #layout #sculpt-image {
@@ -41,10 +48,34 @@ body {
     position: relative;
 }
 
-#sculpt-header {
-    position: sticky;
-    top: 0px;
+#footer {
+    background: linear-gradient(to bottom, #E6CEB5, #B59275);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+#footer a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+#footer a:hover {
+    color: black;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*AngelEars*/
 
 body {
     margin: 0px;
@@ -90,11 +121,6 @@ body {
     margin-right: 24px;
 }
 
-.cta-button a:hover {
-    opacity: 50%;
-    color: white;
-}
-
 #mag-image img {
     height: 100vh;
     background-size: cover;
@@ -107,10 +133,34 @@ body {
     top: 0px;
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
+#Secondfooter {
+    background: linear-gradient(to bottom, pink, orange);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+#Secondfooter a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+#Secondfooter a:hover {
+    color: black;
+}
+
+#Secondfooter-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*TAILORED SPOOKS*/
 
 #spook-image {
     background-image: url("../images/pirate-kids.jpg");
@@ -122,8 +172,42 @@ body {
     align-items: center;
 }
 
+#spook-image .spook-content {
+    position: relative;
+    left: 5%;
+}
+
+#spook-image h1 {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: black;
+}
+
+#spook-image h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#spook-image a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    box-shadow: 5px 5px darkred;
+    border-radius: 20px;
+}
+
+#spook-image a:hover {
+    opacity: 90%;
+    color: black;
+}
+
 #spook-navbar {
-    background: linear-gradient(to bottom, orange, red);
+    background: linear-gradient(to bottom, darkred, red);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,7 +215,7 @@ body {
 
 #spook-navbar a {
     text-decoration: none;
-    color: black;
+    color: aliceblue;
     padding: 24px;
 }
 
@@ -168,7 +252,41 @@ body {
     top: 0px;
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
+#spook-bottom {
+    background: linear-gradient(to bottom, orange, red);
+    display: flex;
+    justify-content: space-between;
+}
+
+#spook-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#thirdfooter {
+    background: linear-gradient(to bottom, red, darkred);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#thirdfooter a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+#thirdfooter a:hover {
+    color: black;
+}
+
+#thirdfooter-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
