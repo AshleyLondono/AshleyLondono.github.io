@@ -1,41 +1,5 @@
 * {
-    box-sizing: border-box;
-}
-
-#hero-1 {
-    background-image: url("../images/Abstract_Re-Imagined.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
-    align-items: flex-end;
-    margin: 20px;
-}
-
-#hero-1 h1 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
-    margin: 5vw;
-    color: white;
-}
-
-#hero-1 h4 {
-    font-size: 3vw;
-    margin: 5vw;
-    color: white;
-}
-
-#hero-1 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    box-sizing:border-box;
 }
 
 body {
@@ -43,14 +7,40 @@ body {
     font-family: sans-serif;
 }
 
-#centered-column {
-    width: 90vw;
-    max-width: 800px;
-    margin: 48px auto;
+#hero-1 {
+    background-image: url("../images/Abstract_Re-Imagined.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     display: flex;
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+#hero-1 .hero-content {
+    justify-content: flex-start;
+    text-align: left;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    color: white;
+    position: relative;
+    left: 10px; 
+}
+
+#hero-1 h2 {
+    font-size: 4vw;
+    color: white;
+    display: block;
+    position: relative;
+    left: 10px; 
+}
+
+.spacer {
+    height: 100vh;
 }
 
 .cards-space {

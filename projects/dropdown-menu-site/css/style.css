@@ -65,3 +65,42 @@ body {
     background: #714423;
     color: white;
 }
+
+.spacer {
+    height: 100vh;
+    background-image: url("../images/paw-background.jpg");
+    background-size: cover;
+}
+
+#hero-1 {
+    background-image: url("../images/dog-and-cat.png");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
+}
+
+#hero-1 .hero-content {
+    justify-content: flex-start;
+    text-align: left;
+    color: rgb(2, 2, 2);
+    padding: 5vh 8vw;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    color: white;
+    position: relative;
+    left: 10px; 
+}
+
+#hero-1 h2 {
+    font-size: 4vw;
+    color: white;
+    display: block;
+    position: relative;
+    left: 10px; 
+}
