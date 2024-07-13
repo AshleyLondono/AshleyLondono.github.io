@@ -1,3 +1,4 @@
+/*background image*/
 * {
     box-sizing: border-box;
 }
@@ -5,8 +6,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    height: 100vh;
+    background-image: url("../images/paw-background.jpg");
+    background-size: cover;
 }
 
+/*navigation bar*/
 #navbar {
     background-color: tan;
     display: flex;
@@ -22,7 +27,7 @@ body {
 
 #navbar a:hover {
     background-color: #97704F;
-    color: black
+    color: black;
 }
 
 #navbar #logo {
@@ -66,13 +71,9 @@ body {
     color: white;
 }
 
-.spacer {
-    height: 100vh;
-    background-image: url("../images/paw-background.jpg");
-    background-size: cover;
-}
-
+/*First page hero*/
 #hero-1 {
+    margin-top: 30px;
     background-image: url("../images/dog-and-cat.png");
     height: 80vh;
     background-size: cover;
@@ -104,3 +105,87 @@ body {
     position: relative;
     left: 10px; 
 }
+
+/*Lance page card*/
+
+#layout {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+#layout {
+    width: 400px;
+    border: 2px solid #ffe4da;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 3px 3px 12px #ffe4da;
+    background: linear-gradient(
+        -50deg, 
+        #ffe4da,
+        tan
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+#layout img {
+    width: 100%;
+    object-fit: fill;
+}
+
+#layout h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    color :#714423;
+}
+
+#layout p {
+    font-size: 18px;
+    flex: 1;
+}
+
+#layout:hover {
+    background-color: white;
+    box-shadow: 4px 4px 4px #714423;
+    transform: translateY(-4px);
+}
+
+#layout {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#layout p {
+    font-size: 18px;
+    flex: 1;
+}
+
+#layout a {
+    color:#714423;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: tan;
+    padding: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    width: 100%;
+    border: 3px solid #97704F;
+    transition: 
+        background-color .5s;
+}
+
+#layout a:hover {
+    background-color: transparent;
+}
+
+
