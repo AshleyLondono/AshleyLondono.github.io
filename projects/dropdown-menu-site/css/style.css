@@ -188,4 +188,11 @@ body {
     background-color: transparent;
 }
 
-
+/* Media Queries Styling */
+@media screen and (max-width: 735px) and (min-width: 400px) {
+    #grid-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        " "
+    }
+}
