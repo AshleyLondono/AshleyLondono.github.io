@@ -18,7 +18,7 @@ body {
 }
 
 #navbar-top {
-    background-color: #6E745D
+    background-color: #6E745D;
 }
 
 #navbar-top .content-column {
@@ -65,15 +65,6 @@ body {
     text-decoration: none;
     color: black;
     padding: 12px 0px;
-}
-
-* {
-    box-sizing: border-box
-}
-
-body {
-    margin: 0px;
-    font-family: sans-serif;
 }
 
 .spacer {
@@ -141,7 +132,6 @@ body {
     margin: 0px auto;
 }
 
-/*Content Layout Styles*/
 .side-by-side {
     display: flex;
     align-items: center;
