@@ -104,7 +104,6 @@ body {
 
 #hero-1 a {
     font-size: 2vw;
-    font-weight: bold;
     display: inline-block;
     background-color: #F0C08E;
     color: black;
@@ -155,6 +154,8 @@ body {
 .side-by-side .image-container img {
     width: 100%;
     border-radius: 20px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .side-by-side .text-container h3 {
